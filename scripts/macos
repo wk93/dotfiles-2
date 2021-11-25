@@ -1,0 +1,13 @@
+##################################################################
+# Topmenu & wallpaper                                            #
+##################################################################
+
+# Set clock format to 17:25
+defaults write com.apple.menuextra.clock DateFormat -string "HH:mm"
+
+# Set wallpaper to solid black
+osascript -e 'tell application "System Events" to set picture of every desktop to "/System/Library/Desktop Pictures/Solid Colors/Black.png"'
+
+# Hide spotlight icon
+defaults -currentHost write com.apple.Spotlight MenuItemHidden -int 1
+killall Spotlight

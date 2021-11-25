@@ -6,4 +6,8 @@ echo "Cloning repository into: '$DOTFILES_PATH'"
 # To test that git is installed (if not macOS will prompt an installer)
 git --version
 
+# Clone repo
 git clone --depth 1 git@github.com:wk93/dotfiles.git "$DOTFILES_PATH"
+
+echo "Set Mac OS preferences"
+source "$DOTFILES_PATH/scripts/macos"
