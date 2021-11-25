@@ -1,0 +1,4 @@
+export DOTFILES_PATH="$HOME/.dotfiles"
+
+echo "Install dotfiles"
+echo "Cloning repository into: '$DOTFILES_PATH'"
