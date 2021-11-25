@@ -2,3 +2,8 @@ export DOTFILES_PATH="$HOME/.dotfiles"
 
 echo "Install dotfiles"
 echo "Cloning repository into: '$DOTFILES_PATH'"
+
+# To test that git is installed (if not macOS will prompt an installer)
+git --version
+
+git clone --depth 1 git@github.com:wk93/dotfiles.git "$DOTFILES_PATH"
