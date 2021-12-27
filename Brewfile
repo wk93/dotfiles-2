@@ -5,6 +5,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "mongodb/brew"
 tap "homebrew/cask-fonts"
+tap "romkatv/powerlevel10k"
 
 # Mac App Store
 brew "mas"
@@ -15,6 +16,9 @@ brew "nvm"
 # Signing commits
 brew "gnupg"
 brew "pinentry-mac"
+
+# zsh theme
+brew "romkatv/powerlevel10k/powerlevel10k"
 
 # Apps
 cask "1password"
