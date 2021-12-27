@@ -4,6 +4,7 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "mongodb/brew"
+tap "homebrew/cask-fonts"
 
 # Mac App Store
 brew "mas"
@@ -42,3 +43,6 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
+
+# Fonts
+cask "font-fira-code"
