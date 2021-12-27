@@ -11,5 +11,4 @@ git clone --depth 1 git@github.com:wk93/dotfiles.git "$DOTFILES"
 
 echo "Set Mac OS preferences"
 source "$DOTFILES/scripts/macos"
-
-ln -s -f "$DOTFILES/.zshrc" ~/.zshrc
+source "$DOTFILES/scripts/links"
