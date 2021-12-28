@@ -20,6 +20,10 @@ brew "pinentry-mac"
 # zsh theme
 brew "romkatv/powerlevel10k/powerlevel10k"
 
+# Tools
+brew "bat"
+brew "exa"
+
 # Apps
 cask "1password"
 cask "docker"

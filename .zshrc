@@ -18,3 +18,6 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+alias ls='exa -lah --time-style long-iso --octal-permissions --no-permissions --group-directories-first'
+alias cat='bat'
