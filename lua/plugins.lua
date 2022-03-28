@@ -8,6 +8,10 @@ if fn.empty(fn.glob(install_path)) > 0 then
 end
 
 return require('packer').startup(function(use)
+  -- general dev
+  use 'wbthomason/packer.nvim' -- Package manager
+  use 'neovim/nvim-lspconfig' -- Collection of configurations for the built-in LSP client
+  use 'williamboman/nvim-lsp-installer'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
