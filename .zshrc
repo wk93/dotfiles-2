@@ -21,3 +21,6 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 alias ls='exa -lah --time-style long-iso --octal-permissions --no-permissions --group-directories-first'
 alias cat='bat'
+
+# FOR GIT GPG SIGNING
+export GPG_TTY=$(tty)
