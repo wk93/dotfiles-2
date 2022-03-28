@@ -1,3 +1,4 @@
 ln -s -f "$DOTFILES/.zshrc" ~/.zshrc
 ln -s -f "$DOTFILES/kitty.conf" ~/.config/kitty/kitty.conf
-ln -s -f "$DOTFILES/init.vim" ~/.config/nvim/init.vim
+ln -s -f "$DOTFILES/init.lua" ~/.config/nvim/init.lua
+ln -s -f "$DOTFILES/lua" ~/.config/nvim/lua
