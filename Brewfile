@@ -1,33 +1,29 @@
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "mongodb/brew"
-tap "homebrew/cask-fonts"
 tap "romkatv/powerlevel10k"
-
-# Mac App Store
-brew "mas"
-
-# Dev
-brew "nvm"
-
-# Signing commits
-brew "gnupg"
-brew "pinentry-mac"
-
-# zsh theme
-brew "romkatv/powerlevel10k/powerlevel10k"
-
-# Tools
 brew "bat"
+brew "cocoapods"
 brew "exa"
-
-# Apps
+brew "pinentry"
+brew "gnupg"
+brew "mas"
+brew "neovim"
+brew "nvm"
+brew "openjdk"
+brew "pinentry-mac"
+brew "tokei"
+brew "heroku/brew/heroku"
+brew "romkatv/powerlevel10k/powerlevel10k"
 cask "1password"
 cask "docker"
 cask "dropbox"
+cask "font-fira-code"
 cask "google-chrome"
 cask "imageoptim"
 cask "kitty"
@@ -38,19 +34,16 @@ cask "postman"
 cask "protonmail-bridge"
 cask "qnapi"
 cask "robo-3t"
+cask "slack"
 cask "steam"
 cask "the-unarchiver"
 cask "transmission"
 cask "vlc"
 cask "whatsapp"
 cask "zoom"
-
-# Mac App Store
 mas "Keynote", id: 409183694
+mas "Medieval II: Total War™ Collection", id: 1035560137
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
-
-# Fonts
-cask "font-fira-code"
